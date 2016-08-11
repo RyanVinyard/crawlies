@@ -62,6 +62,9 @@ $(document).ready(function () {
       $("#terrytarantula").show();
       $("#randallturtle, #larryworm, #severussnake, #mortonmoth, #luciferturtle, #dingusviper, #brucethegoose, #beardodragon").hide();
       }
+    else {
+      alert("Please enter your age, ya dingus!");
+    }
 
   event.preventDefault();
   });
