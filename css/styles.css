@@ -12,3 +12,7 @@ img {
   margin:auto;
   width: 40em;
 }
+
+#randallturtle, #larryworm, #severussnake, #mortonmoth, #luciferturtle, #dingusviper, #brucethegoose, #beardodragon, #terrytarantula {
+  display: none;
+}
