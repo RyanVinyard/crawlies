@@ -3,12 +3,25 @@
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script   src="https://code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
     <title>Creepy Crawlies</title>
   </head>
   <body>
     <div class ="container">
+      <h1>What do you want to learn about?</h1>
+      <form id="critter-select">
+        <div class ="form-group">
+          <select class="form-control" id="critterchoice">
+            <option value="Snakes">Snakes</option>
+            <option value="Turtles">Turtles</option>
+            <option value="Insects">Insects</option>
+          </select>
+          <br>
+          <button type="submit" class="btn">Learn!</button>
+        </div>
+      </form>
+
       <div id="snakes">
         <h1>Snakes!</h1>
         <img src="img/eyelashviper.jpg">
